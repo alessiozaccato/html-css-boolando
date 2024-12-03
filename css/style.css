@@ -7,7 +7,9 @@ header {
     background-color: #ff6900;
     color: white;
     padding-block: 20px;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .center_header img {
@@ -122,4 +124,8 @@ footer {
     max-width:100%;
     display: inline-block;
     fill: white;
+}
+
+.heart:hover {
+    color: red;
 }
