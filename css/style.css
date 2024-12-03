@@ -2,7 +2,7 @@
 header {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
 }
 
 .center_header img {
@@ -18,20 +18,20 @@ header {
 .container_90 {
     width: 90%;
     margin: 2em auto;
-    gap: 1em;
-    padding: 1em;
+    gap: 2em;
+    padding: 2em;
 }
 
 /* I figure contengono gli svg! */
 .right_header figure{
-    width: 25px;
-    max-width: 100%;
+    width: 20px;
+    max-width:100%;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center ;
     
 }
 
@@ -39,8 +39,40 @@ figure img {
     width: 100%;
 }
 
+section figure {
+    position: relative;
+}
+
 .flex_basis {
     flex-basis: calc(90% / 3);
+}
+
+.red_label {
+    background-color: red;
+}
+
+.green_label {
+    background-color: green;
+}
+
+.label_double {
+    position: absolute;
+    left:0;
+    bottom: 20px;
+}
+
+.single_label {
+    position: absolute;
+    left:0;
+    bottom: 20px;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 5px;
 }
 
 
