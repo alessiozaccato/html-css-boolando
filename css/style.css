@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: space-around;
@@ -8,5 +9,38 @@ header {
     width: 30%;
     margin: 0 auto;
     text-align: center;
-    display: block;
 }
+
+.right_header figure{
+    display: inline-block;
+}
+
+.container_90 {
+    width: 90%;
+    margin: 2em auto;
+    gap: 1em;
+    padding: 1em;
+}
+
+/* I figure contengono gli svg! */
+.right_header figure{
+    width: 25px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+figure img {
+    width: 100%;
+}
+
+.flex_basis {
+    flex-basis: calc(90% / 3);
+}
+
+
