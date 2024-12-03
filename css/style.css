@@ -15,7 +15,6 @@ header {
 .center_header img {
     width: 30%;
     margin:0 auto;
-    text-align: center;
 }
 
 .right_header figure{
@@ -126,6 +125,26 @@ footer {
     fill: white;
 }
 
+/* hover section  */
+
+/* heart hover  */
 .heart:hover {
     color: red;
 }
+
+/* img box hover  */
+.img_container {
+    position: relative;
+}
+
+.img_container .hover_img {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.img_container:hover .hover_img {
+    display: block;
+}
+
+
