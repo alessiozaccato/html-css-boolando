@@ -1,13 +1,18 @@
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-inline: 10%;
     align-items:center;
+    background-color: #ff6900;
+    color: white;
+    padding-block: 20px;
+    
 }
 
 .center_header img {
     width: 30%;
-    margin: 0 auto;
+    margin:0 auto;
     text-align: center;
 }
 
@@ -26,6 +31,7 @@ header {
 .right_header figure{
     width: 20px;
     max-width:100%;
+    fill: white;
 }
 
 .flex {
@@ -75,4 +81,19 @@ section figure {
     padding: 5px;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-color: black;
+    padding-inline: 10%;
+    padding-block: 20px;
+}
 
+.right_footer figure {
+    width: 20px;
+    max-width:100%;
+    display: inline-block;
+    fill: white;
+}
